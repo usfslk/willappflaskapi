@@ -141,16 +141,14 @@
           "unit": "feet"
         },
         "room_function_primary": "Audio Mixing",
-        "room_functions": [
-          {
+        "room_functions": {
             "audio_mix": true,
             "audio_record": true,
             "voice_over": true,
             "sound_edit": true,
             "foley": false,
             "track_lay": false
-          }
-        ],
+        },
         "room_video_setup": [
           "Dolby Vision",
           "HDR10",
@@ -944,7 +942,7 @@
           "unit": "feet"
         },
         "room_function_primary": "Audio Mixing",
-        "room_functions": [
+        "room_functions": 
           {
             "audio_mix": true,
             "audio_record": true,
@@ -953,7 +951,7 @@
             "foley": false,
             "track_lay": false
           }
-        ],
+        ,
         "room_video_setup": [
           "Dolby Vision",
           "HDR10",
