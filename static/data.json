@@ -1,1068 +1,1078 @@
 [
-    {
-      "vendor_name": "The one",
-      "vendor_website": "https://thevendorwebsite.com",
-      "vendor_types_and_services": {
-        "audio_description": [
-          "Lorem ipsum",
-          "Dolor sit amaet"
-        ],
-        "dubbing": [
-          "Anime & Animation",
-          "Interactive/Game",
-          "Lip Sync",
-          "Live Action",
-          "Voice Over"
-        ],
-        "creative_post": [
-          "ADR",
-          "DCP",
-          "Centralized Mixing",
-          "Color Grading",
-          "Dailies",
-          "Foley",
-          "IMF",
-          "Mixing",
-          "Offline",
-          "Online",
-          "Restoration",
-          "Sound Design",
-          "Sound Editing",
-          "Sound Mixing"
-        ],
-        "master_qc": [
-          "true"
-        ],
-        "VFX": [
-          "2.5D Matte Painting:Matte Painting",
-          "2.5D Matte Painting:Sky Replacement",
-          "2D Comp:2D Crowd Duplication",
-          "2D Comp:2D Face Replacement",
-          "2D Comp:Cell Phone Comps",
-          "2D Comp:Clean Up",
-          "2D Comp:Compositing",
-          "2D Comp:Cosmetic Fixes",
-          "2D Comp:De-aging",
-          "2D Comp:Monitor Comps",
-          "2D Comp:Paint",
-          "2D Comp:Rig/Wire Removal",
-          "2D Comp:Roto",
-          "2D Comp:Tracking",
-          "2D Comp:Window Comps",
-          "3D Environment:3D Environments",
-          "3D Environment:Set Extensions",
-          "3D Object:3D Animated Object",
-          "3D Object:3D Character",
-          "3D Object:3D Static Object",
-          "3D Object:Creature Animation",
-          "3D Object:Digital Doubles",
-          "3D Object:Face/Head Replacements",
-          "FX Sim:3D Crowd Simulation",
-          "FX Sim:3D Partical Simulation",
-          "FX Sim:CG Fire",
-          "FX Sim:CG Hair/Fur",
-          "FX Sim:CG Rain",
-          "FX Sim:CG Snow",
-          "FX Sim:CG Water",
-          "Graphics:End Titles Sequence Design (Credits)",
-          "Graphics:Heads Up Displays",
-          "Graphics:Main Title Sequence Design",
-          "Graphics:Show Graphics",
-          "VFX Services:Character Design",
-          "VFX Services:Concept Design",
-          "VFX Services:Cyber Scanning",
-          "VFX Services:Data Wrangling",
-          "VFX Services:In-House Artist Team",
-          "VFX Services:Lidar Scanning",
-          "VFX Services:Look Dev",
-          "VFX Services:Motion Capture (MoCap)",
-          "VFX Services:On-Set Supervision",
-          "VFX Services:Photogrammetry",
-          "VFX Services:Post Visualization",
-          "VFX Services:Pre-Visualization",
-          "VFX Services:Tech Viz",
-          "VFX Services:Virtual Production",
-          "VFX Services:Virtual Reality",
-          "VFX:VFX"
-        ]
-      },
-      "vendor_other_services": "",
-      "vendor_experience_by_content_type": [
-        "Features",
-        "Doc Features",
-        "Shortform",
-        "Scripted series",
-        "Non-fiction series"
+  {
+    "vendor_name": "The one",
+    "vendor_website": "https://thevendorwebsite.com",
+    "vendor_types_and_services": {
+      "audio_description": [
+        "Lorem ipsum",
+        "Dolor sit amaet"
       ],
-      "facility_address_1": "1234 Street Name",
-      "facility_address_2": "Suite 987",
-      "facility_city": "Tokyo",
-      "facility_state": "StateName",
-      "facility_postal_code": "10910",
-      "facility_country": "Japan",
-      "facility_owner": "",
-      "faclity_email": "test@mail.com",
-      "facility_founded_year": "",
-      "facility_reference_emails": [
-        "facility_reference_email_1",
-        "facility_reference_email_2"
+      "dubbing": [
+        "Anime & Animation",
+        "Interactive/Game",
+        "Lip Sync",
+        "Live Action",
+        "Voice Over"
       ],
-      "facility_delivered_netflix_titles": [
-        {
-          "title": "title_1",
-          "services": [
-            "Dubbing",
-            "Creative Post"
-          ]
-        },
-        {
-          "title": "title_2",
-          "services": [
-            "Creative Post",
-            "VFX"
-          ]
-        },
-        {
-          "title": "title_3",
-          "services": [
-            "Dubbing"
-          ]
-        }
+      "creative_post": [
+        "ADR",
+        "DCP",
+        "Centralized Mixing",
+        "Color Grading",
+        "Dailies",
+        "Foley",
+        "IMF",
+        "Mixing",
+        "Offline",
+        "Online",
+        "Restoration",
+        "Sound Design",
+        "Sound Editing",
+        "Sound Mixing"
       ],
-      "faciltiy_studio_rooms": [
-        {
-          "room_number": 1,
-          "room_name": "Studio A",
-          "room_type": "Suite",
-          "room_dimensions": {
-            "width": 16,
-            "height": 12,
-            "depth": 14,
-            "unit": "feet"
-          },
-          "room_function_primary": "Audio Mixing",
-          "room_function_secondary": "",
-          "room_video_setup": [
-            "Dolby Vision",
-            "HDR10",
-            "4K DCI",
-            "Ultra High Definition (UHD)",
-            "2K DCI",
-            "High Definition (HD)",
-            "Standard Definition (SD)"
-          ],
-          "room_video_properties": {
-            "reference_monitor_minimum_requirements": true,
-            "surround_illumination": true,
-            "surround_light_level": true,
-            "surround_extent": true,
-            "viewing_distance": true,
-            "calibration_best_practices": true
-          },
-          "room_audio_setup": [
-            "Dolby Atmos Theatrical",
-            "Dolby Atmos Home Entertainment (9.1.6)",
-            "Dolby Atmos Home Entertainment (7.1.4)",
-            "Dolby Atmos Home Entertainment (5.1.4)",
-            "Surround Sound Theatrical (7.1)",
-            "Surround Sound Theatrical (5.1)",
-            "Surround Sound Nearfield (7.1)",
-            "Surround Sound Nearfield (5.1)",
-            "Stereo (2.0)"
-          ],
-          "room_audio_properties": {
-            "audio_critical_environment_guidance_adherence": true,
-            "meets_minimum_room_dimension_guidelines": true,
-            "center_speaker_placement_meets_guidelines": true,
-            "av_sync_calibrated": true,
-            "uniform_speaker_make_or_model_config": true,
-            "tuned_environment_per_speaker_eq_delay_config": true,
-            "calibration_frequency": "Start of project"
-          },
-          "room_floated": false,
-          "room_isolated": true,
-          "room_prompting_tool": "EdiCue",
-          "rooms_attached": [
-            {
-              "room_attached_type": [
-                "Record Booth",
-                "Live Room",
-                "Foley"
-              ],
-              "room_attached_los": true,
-              "room_attached_capacity": 3,
-              "room_attached_dimensions": {
-                "width": 14,
-                "height": 12,
-                "depth": 11,
-                "unit": "feet"
-              }
-            },
-            {
-              "room_attached_type": [
-                "Record Booth",
-                "Live Room"
-              ],
-              "room_attached_los": false,
-              "room_attached_capacity": 3,
-              "room_attached_dimensions": {
-                "width": 13,
-                "height": 99,
-                "depth": 83,
-                "unit": "feet"
-              }
-            }
-          ],
-          "room_workstations": [
-            {
-              "workstation_hardware_brand": "Apple",
-              "workstation_hardware_name": "MacPro 6.1 (Trashcan)",
-              "workstation_hardware_os": "Mojave 10.14.6",
-              "workstation_location": "In Room",
-              "workstation_network_access": "Hard Patch",
-              "workstation_network_connectivity": "Production Network",
-              "workstation_software": [
-                {
-                  "software_type": "Audio",
-                  "software_company": "Merging",
-                  "software_name": "Pyramix",
-                  "software_version": ""
-                },
-                {
-                  "software_type": "VFX",
-                  "software_company": "Adobe",
-                  "software_name": "After Effects",
-                  "software_version": ""
-                },
-                {
-                  "software_type": "Color",
-                  "software_company": "Blackmagic",
-                  "software_name": "DaVinci Resolve",
-                  "software_version": ""
-                }
-              ]
-            }
-          ],
-          "room_displays": [
-            {
-              "display_brand": "LG",
-              "dispaly_model": "C8",
-              "display_type": "OLED",
-              "dipaly_category": "Consumer TV",
-              "display_size": "65",
-              "display_resolution": "4K UHD",
-              "display_hdr": true
-            }
-          ],
-          "room_speakers": [
-            {
-              "speaker_brand": "Neumann",
-              "speaker_model": "O 300",
-              "speaker_quantity": 2
-            }
-          ],
-          "room_microphones": [
-            {
-              "microphone_brand": "Neumann",
-              "microphone_model": "U87",
-              "microphone_quantity": 2
-            }
-          ],
-          "room_mixing_consoles": [
-            {
-              "console_brand": "Avid",
-              "console_model": "D-Command"
-            }
-          ]
-        },
-        {
-          "room_number": 1,
-          "room_name": "Studio B",
-          "room_type": "Suite",
-          "room_dimensions": {
-            "width": 16,
-            "height": 12,
-            "depth": 14,
-            "unit": "feet"
-          },
-          "room_function_primary": "Audio Mixing",
-          "room_function_secondary": "",
-          "room_video_setup": [
-            "Dolby Vision",
-            "HDR10",
-            "4K DCI",
-            "Ultra High Definition (UHD)",
-            "2K DCI",
-            "High Definition (HD)",
-            "Standard Definition (SD)"
-          ],
-          "room_video_properties": {
-            "reference_monitor_minimum_requirements": true,
-            "surround_illumination": false,
-            "surround_light_level": true,
-            "surround_extent": true,
-            "viewing_distance": false,
-            "calibration_best_practices": true
-          },
-          "room_audio_setup": [
-            "Dolby Atmos Theatrical",
-            "Dolby Atmos Home Entertainment (9.1.6)",
-            "Dolby Atmos Home Entertainment (7.1.4)",
-            "Dolby Atmos Home Entertainment (5.1.4)",
-            "Surround Sound Theatrical (7.1)",
-            "Surround Sound Theatrical (5.1)",
-            "Surround Sound Nearfield (7.1)",
-            "Surround Sound Nearfield (5.1)",
-            "Stereo (2.0)"
-          ],
-          "room_audio_properties": {
-            "audio_critical_environment_guidance_adherence": true,
-            "meets_minimum_room_dimension_guidelines": true,
-            "center_speaker_placement_meets_guidelines": true,
-            "av_sync_calibrated": true,
-            "uniform_speaker_make_or_model_config": true,
-            "tuned_environment_per_speaker_eq_delay_config": true,
-            "calibration_frequency": "Start of project"
-          },
-          "room_floated": false,
-          "room_isolated": true,
-          "room_prompting_tool": "EdiCue",
-          "rooms_attached": [
-            {
-              "room_attached_type": [
-                "Record Booth",
-                "Live Room",
-                "Foley"
-              ],
-              "room_attached_los": true,
-              "room_attached_capacity": 3,
-              "room_attached_dimensions": {
-                "width": 14,
-                "height": 12,
-                "depth": 11,
-                "unit": "feet"
-              }
-            }
-          ],
-          "room_workstations": [
-            {
-              "workstation_hardware_brand": "Apple",
-              "workstation_hardware_name": "MacPro 6.1 (Trashcan)",
-              "workstation_hardware_os": "Mojave 10.14.6",
-              "workstation_location": "In Room",
-              "workstation_network_access": "Hard Patch",
-              "workstation_network_connectivity": "Production Network",
-              "workstation_software": [
-                {
-                  "software_type": "Audio",
-                  "software_company": "Merging",
-                  "software_name": "Pyramix",
-                  "software_version": ""
-                },
-                {
-                  "software_type": "VFX",
-                  "software_company": "Adobe",
-                  "software_name": "After Effects",
-                  "software_version": ""
-                },
-                {
-                  "software_type": "Color",
-                  "software_company": "Blackmagic",
-                  "software_name": "DaVinci Resolve",
-                  "software_version": ""
-                }
-              ]
-            }
-          ],
-          "room_displays": [
-            {
-              "display_brand": "LG",
-              "dispaly_model": "C8",
-              "display_type": "OLED",
-              "dipaly_category": "Consumer TV",
-              "display_size": "65",
-              "display_resolution": "4K UHD",
-              "display_hdr": true
-            }
-          ],
-          "room_speakers": [
-            {
-              "speaker_brand": "Neumann",
-              "speaker_model": "O 300",
-              "speaker_quantity": 2
-            }
-          ],
-          "room_microphones": [
-            {
-              "microphone_brand": "Neumann",
-              "microphone_model": "U87",
-              "microphone_quantity": 2
-            }
-          ],
-          "room_mixing_consoles": [
-            {
-              "console_brand": "Avid",
-              "console_model": "D-Command"
-            }
-          ]
-        },
-        {
-          "room_number": 1,
-          "room_name": "Studio C",
-          "room_type": "Suite",
-          "room_dimensions": {
-            "width": 16,
-            "height": 12,
-            "depth": 14,
-            "unit": "feet"
-          },
-          "room_function_primary": "Audio Mixing",
-          "room_function_secondary": "",
-          "room_video_setup": [
-            "Dolby Vision",
-            "HDR10",
-            "4K DCI",
-            "Ultra High Definition (UHD)",
-            "2K DCI",
-            "High Definition (HD)",
-            "Standard Definition (SD)"
-          ],
-          "room_video_properties": {
-            "reference_monitor_minimum_requirements": true,
-            "surround_illumination": true,
-            "surround_light_level": true,
-            "surround_extent": true,
-            "viewing_distance": true,
-            "calibration_best_practices": true
-          },
-          "room_audio_setup": [
-            "Dolby Atmos Theatrical",
-            "Dolby Atmos Home Entertainment (9.1.6)",
-            "Dolby Atmos Home Entertainment (7.1.4)",
-            "Dolby Atmos Home Entertainment (5.1.4)",
-            "Surround Sound Theatrical (7.1)",
-            "Surround Sound Theatrical (5.1)",
-            "Surround Sound Nearfield (7.1)",
-            "Surround Sound Nearfield (5.1)",
-            "Stereo (2.0)"
-          ],
-          "room_audio_properties": {
-            "audio_critical_environment_guidance_adherence": true,
-            "meets_minimum_room_dimension_guidelines": true,
-            "center_speaker_placement_meets_guidelines": true,
-            "av_sync_calibrated": true,
-            "uniform_speaker_make_or_model_config": true,
-            "tuned_environment_per_speaker_eq_delay_config": true,
-            "calibration_frequency": "Start of project"
-          },
-          "room_floated": false,
-          "room_isolated": true,
-          "room_prompting_tool": "EdiCue",
-          "rooms_attached": [
-            {
-              "room_attached_type": [
-                "Record Booth",
-                "Live Room",
-                "Foley"
-              ],
-              "room_attached_los": true,
-              "room_attached_capacity": 3,
-              "room_attached_dimensions": {
-                "width": 14,
-                "height": 12,
-                "depth": 11,
-                "unit": "feet"
-              }
-            }
-          ],
-          "room_workstations": [
-            {
-              "workstation_hardware_brand": "Apple",
-              "workstation_hardware_name": "MacPro 6.1 (Trashcan)",
-              "workstation_hardware_os": "Mojave 10.14.6",
-              "workstation_location": "In Room",
-              "workstation_network_access": "Hard Patch",
-              "workstation_network_connectivity": "Production Network",
-              "workstation_software": [
-                {
-                  "software_type": "Audio",
-                  "software_company": "Merging",
-                  "software_name": "Pyramix",
-                  "software_version": ""
-                },
-                {
-                  "software_type": "VFX",
-                  "software_company": "Adobe",
-                  "software_name": "After Effects",
-                  "software_version": ""
-                },
-                {
-                  "software_type": "Color",
-                  "software_company": "Blackmagic",
-                  "software_name": "DaVinci Resolve",
-                  "software_version": ""
-                }
-              ]
-            }
-          ],
-          "room_displays": [
-            {
-              "display_brand": "LG",
-              "dispaly_model": "C8",
-              "display_type": "OLED",
-              "dipaly_category": "Consumer TV",
-              "display_size": "65",
-              "display_resolution": "4K UHD",
-              "display_hdr": true
-            }
-          ],
-          "room_speakers": [
-            {
-              "speaker_brand": "Neumann",
-              "speaker_model": "O 300",
-              "speaker_quantity": 2
-            }
-          ],
-          "room_microphones": [
-            {
-              "microphone_brand": "Neumann",
-              "microphone_model": "U87",
-              "microphone_quantity": 2
-            }
-          ],
-          "room_mixing_consoles": [
-            {
-              "console_brand": "Avid",
-              "console_model": "D-Command"
-            }
-          ]
-        }
+      "master_qc": [
+        "true"
+      ],
+      "VFX": [
+        "2.5D Matte Painting:Matte Painting",
+        "2.5D Matte Painting:Sky Replacement",
+        "2D Comp:2D Crowd Duplication",
+        "2D Comp:2D Face Replacement",
+        "2D Comp:Cell Phone Comps",
+        "2D Comp:Clean Up",
+        "2D Comp:Compositing",
+        "2D Comp:Cosmetic Fixes",
+        "2D Comp:De-aging",
+        "2D Comp:Monitor Comps",
+        "2D Comp:Paint",
+        "2D Comp:Rig/Wire Removal",
+        "2D Comp:Roto",
+        "2D Comp:Tracking",
+        "2D Comp:Window Comps",
+        "3D Environment:3D Environments",
+        "3D Environment:Set Extensions",
+        "3D Object:3D Animated Object",
+        "3D Object:3D Character",
+        "3D Object:3D Static Object",
+        "3D Object:Creature Animation",
+        "3D Object:Digital Doubles",
+        "3D Object:Face/Head Replacements",
+        "FX Sim:3D Crowd Simulation",
+        "FX Sim:3D Partical Simulation",
+        "FX Sim:CG Fire",
+        "FX Sim:CG Hair/Fur",
+        "FX Sim:CG Rain",
+        "FX Sim:CG Snow",
+        "FX Sim:CG Water",
+        "Graphics:End Titles Sequence Design (Credits)",
+        "Graphics:Heads Up Displays",
+        "Graphics:Main Title Sequence Design",
+        "Graphics:Show Graphics",
+        "VFX Services:Character Design",
+        "VFX Services:Concept Design",
+        "VFX Services:Cyber Scanning",
+        "VFX Services:Data Wrangling",
+        "VFX Services:In-House Artist Team",
+        "VFX Services:Lidar Scanning",
+        "VFX Services:Look Dev",
+        "VFX Services:Motion Capture (MoCap)",
+        "VFX Services:On-Set Supervision",
+        "VFX Services:Photogrammetry",
+        "VFX Services:Post Visualization",
+        "VFX Services:Pre-Visualization",
+        "VFX Services:Tech Viz",
+        "VFX Services:Virtual Production",
+        "VFX Services:Virtual Reality",
+        "VFX:VFX"
       ]
     },
-    {
-      "vendor_name": "VendorTwo",
-      "vendor_website": "https://thevendorwebsite.com",
-      "vendor_types_and_services": {
-        "audio_description": [
-          
-        ],
-        "dubbing": [
-          "Anime & Animation",
-          "Interactive/Game",
-          "Lip Sync",
-          "Live Action",
-          "Voice Over"
-        ],
-        "creative_post": [
-          "ADR",
-          "DCP",
-          "Centralized Mixing",
-          "Color Grading",
-          "Dailies",
-          "Foley",
-          "IMF",
-          "Mixing",
-          "Offline",
-          "Online",
-          "Restoration",
-          "Sound Design",
-          "Sound Editing",
-          "Sound Mixing"
-        ],
-        "master_qc": [
-          
-        ],
-        "VFX": [
-          "2.5D Matte Painting:Matte Painting",
-          "2.5D Matte Painting:Sky Replacement",
-          "2D Comp:2D Crowd Duplication",
-          "2D Comp:2D Face Replacement",
-          "2D Comp:Cell Phone Comps",
-          "2D Comp:Clean Up",
-          "2D Comp:Compositing",
-          "2D Comp:Cosmetic Fixes",
-          "2D Comp:De-aging",
-          "2D Comp:Monitor Comps",
-          "2D Comp:Paint",
-          "2D Comp:Rig/Wire Removal",
-          "2D Comp:Roto",
-          "2D Comp:Tracking",
-          "2D Comp:Window Comps",
-          "3D Environment:3D Environments",
-          "3D Environment:Set Extensions",
-          "3D Object:3D Animated Object",
-          "3D Object:3D Character",
-          "3D Object:3D Static Object",
-          "3D Object:Creature Animation",
-          "3D Object:Digital Doubles",
-          "3D Object:Face/Head Replacements",
-          "FX Sim:3D Crowd Simulation",
-          "FX Sim:3D Partical Simulation",
-          "FX Sim:CG Fire",
-          "FX Sim:CG Hair/Fur",
-          "FX Sim:CG Rain",
-          "FX Sim:CG Snow",
-          "FX Sim:CG Water",
-          "Graphics:End Titles Sequence Design (Credits)",
-          "Graphics:Heads Up Displays",
-          "Graphics:Main Title Sequence Design",
-          "Graphics:Show Graphics",
-          "VFX Services:Character Design",
-          "VFX Services:Concept Design",
-          "VFX Services:Cyber Scanning",
-          "VFX Services:Data Wrangling",
-          "VFX Services:In-House Artist Team",
-          "VFX Services:Lidar Scanning",
-          "VFX Services:Look Dev",
-          "VFX Services:Motion Capture (MoCap)",
-          "VFX Services:On-Set Supervision",
-          "VFX Services:Photogrammetry",
-          "VFX Services:Post Visualization",
-          "VFX Services:Pre-Visualization",
-          "VFX Services:Tech Viz",
-          "VFX Services:Virtual Production",
-          "VFX Services:Virtual Reality",
-          "VFX:VFX"
+    "vendor_other_services": "",
+    "vendor_experience_by_content_type": [
+      "Features",
+      "Doc Features",
+      "Shortform",
+      "Scripted series",
+      "Non-fiction series"
+    ],
+    "facility_address_1": "1234 Street Name",
+    "facility_address_2": "Suite 987",
+    "facility_city": "Tokyo",
+    "facility_state": "StateName",
+    "facility_postal_code": "10910",
+    "facility_country": "Japan",
+    "facility_owner": "",
+    "faclity_email": "test@mail.com",
+    "facility_founded_year": "",
+    "facility_reference_emails": [
+      "facility_reference_email_1",
+      "facility_reference_email_2"
+    ],
+    "facility_delivered_netflix_titles": [
+      {
+        "title": "title_1",
+        "services": [
+          "Dubbing",
+          "Creative Post"
         ]
       },
-      "vendor_other_services": "",
-      "vendor_experience_by_content_type": [
-        "Features",
-        "Doc Features",
-        "Shortform",
-        "Scripted series",
-        "Non-fiction series"
-      ],
-      "facility_address_1": "1234 Street Name",
-      "facility_address_2": "Suite 987",
-      "facility_city": "Sydney",
-      "facility_state": "StateName",
-      "facility_postal_code": "10004",
-      "facility_country": "Australia",
-      "facility_owner": "",
-      "faclity_email": "test@mail.com",
-      "facility_founded_year": "",
-      "facility_reference_emails": [
-        "facility_reference_email_1",
-        "facility_reference_email_2"
-      ],
-      "facility_delivered_netflix_titles": [
-        {
-          "title": "title_1",
-          "services": [
-            "Dubbing",
-            "Creative Post"
-          ]
+      {
+        "title": "title_2",
+        "services": [
+          "Creative Post",
+          "VFX"
+        ]
+      },
+      {
+        "title": "title_3",
+        "services": [
+          "Dubbing"
+        ]
+      }
+    ],
+    "faciltiy_studio_rooms": [
+      {
+        "room_number": 1,
+        "room_name": "Studio A",
+        "room_type": "Suite",
+        "room_dimensions": {
+          "width": 16,
+          "height": 12,
+          "depth": 14,
+          "unit": "feet"
         },
-        {
-          "title": "title_2",
-          "services": [
-            "Creative Post",
-            "VFX"
-          ]
+        "room_function_primary": "Audio Mixing",
+        "room_functions": [
+          {
+            "audio_mix": true,
+            "audio_record": true,
+            "voice_over": true,
+            "sound_edit": true,
+            "foley": false,
+            "track_lay": false
+          }
+        ],
+        "room_video_setup": [
+          "Dolby Vision",
+          "HDR10",
+          "4K DCI",
+          "Ultra High Definition (UHD)",
+          "2K DCI",
+          "High Definition (HD)",
+          "Standard Definition (SD)"
+        ],
+        "room_video_properties": {
+          "reference_monitor_minimum_requirements": true,
+          "surround_illumination": true,
+          "surround_light_level": true,
+          "surround_extent": true,
+          "viewing_distance": true,
+          "calibration_best_practices": true
         },
-        {
-          "title": "title_3",
-          "services": [
-            "Dubbing"
-          ]
-        }
-      ],
-      "faciltiy_studio_rooms": [
-        {
-          "room_number": 1,
-          "room_name": "Studio A",
-          "room_type": "Suite",
-          "room_dimensions": {
-            "width": 16,
-            "height": 12,
-            "depth": 14,
-            "unit": "feet"
+        "room_audio_setup": [
+          "Dolby Atmos Theatrical",
+          "Dolby Atmos Home Entertainment (9.1.6)",
+          "Dolby Atmos Home Entertainment (7.1.4)",
+          "Dolby Atmos Home Entertainment (5.1.4)",
+          "Surround Sound Theatrical (7.1)",
+          "Surround Sound Theatrical (5.1)",
+          "Surround Sound Nearfield (7.1)",
+          "Surround Sound Nearfield (5.1)",
+          "Stereo (2.0)"
+        ],
+        "room_audio_properties": {
+          "audio_critical_environment_guidance_adherence": true,
+          "meets_minimum_room_dimension_guidelines": true,
+          "center_speaker_placement_meets_guidelines": true,
+          "av_sync_calibrated": true,
+          "uniform_speaker_make_or_model_config": true,
+          "tuned_environment_per_speaker_eq_delay_config": true,
+          "calibration_frequency": "Start of project"
+        },
+        "room_floated": false,
+        "room_isolated": true,
+        "room_prompting_tool": "EdiCue",
+        "rooms_attached": [
+          {
+            "room_attached_type": [
+              "Record Booth",
+              "Live Room",
+              "Foley"
+            ],
+            "room_attached_los": true,
+            "room_attached_capacity": 3,
+            "room_attached_dimensions": {
+              "width": 14,
+              "height": 12,
+              "depth": 11,
+              "unit": "feet"
+            }
           },
-          "room_function_primary": "Audio Mixing",
-          "room_function_secondary": "",
-          "room_video_setup": [
-            "Dolby Vision",
-            "HDR10",
-            "4K DCI",
-            "Ultra High Definition (UHD)",
-            "2K DCI",
-            "High Definition (HD)",
-            "Standard Definition (SD)"
-          ],
-          "room_video_properties": {
-            "reference_monitor_minimum_requirements": true,
-            "surround_illumination": false,
-            "surround_light_level": true,
-            "surround_extent": true,
-            "viewing_distance": true,
-            "calibration_best_practices": false
-          },
-          "room_audio_setup": [
-            "Dolby Atmos Theatrical",
-            "Dolby Atmos Home Entertainment (9.1.6)",
-            "Dolby Atmos Home Entertainment (7.1.4)",
-            "Dolby Atmos Home Entertainment (5.1.4)",
-            "Surround Sound Theatrical (7.1)",
-            "Surround Sound Theatrical (5.1)",
-            "Surround Sound Nearfield (7.1)",
-            "Surround Sound Nearfield (5.1)",
-            "Stereo (2.0)"
-          ],
-          "room_audio_properties": {
-            "audio_critical_environment_guidance_adherence": true,
-            "meets_minimum_room_dimension_guidelines": true,
-            "center_speaker_placement_meets_guidelines": true,
-            "av_sync_calibrated": true,
-            "uniform_speaker_make_or_model_config": true,
-            "tuned_environment_per_speaker_eq_delay_config": true,
-            "calibration_frequency": "Start of project"
-          },
-          "room_floated": false,
-          "room_isolated": true,
-          "room_prompting_tool": "EdiCue",
-          "rooms_attached": [
-            {
-              "room_attached_type": [
-                "Record Booth",
-                "Live Room",
-                "Foley"
-              ],
-              "room_attached_los": true,
-              "room_attached_capacity": 3,
-              "room_attached_dimensions": {
-                "width": 14,
-                "height": 12,
-                "depth": 11,
-                "unit": "feet"
+          {
+            "room_attached_type": [
+              "Record Booth",
+              "Live Room"
+            ],
+            "room_attached_los": false,
+            "room_attached_capacity": 3,
+            "room_attached_dimensions": {
+              "width": 13,
+              "height": 99,
+              "depth": 83,
+              "unit": "feet"
+            }
+          }
+        ],
+        "room_workstations": [
+          {
+            "workstation_hardware_brand": "Apple",
+            "workstation_hardware_name": "MacPro 6.1 (Trashcan)",
+            "workstation_hardware_os": "Mojave 10.14.6",
+            "workstation_location": "In Room",
+            "workstation_network_access": "Hard Patch",
+            "workstation_network_connectivity": "Production Network",
+            "workstation_software": [
+              {
+                "software_type": "Audio",
+                "software_company": "Merging",
+                "software_name": "Pyramix",
+                "software_version": ""
+              },
+              {
+                "software_type": "VFX",
+                "software_company": "Adobe",
+                "software_name": "After Effects",
+                "software_version": ""
+              },
+              {
+                "software_type": "Color",
+                "software_company": "Blackmagic",
+                "software_name": "DaVinci Resolve",
+                "software_version": ""
               }
+            ]
+          }
+        ],
+        "room_displays": [
+          {
+            "display_brand": "LG",
+            "dispaly_model": "C8",
+            "display_type": "OLED",
+            "dipaly_category": "Consumer TV",
+            "display_size": "65",
+            "display_resolution": "4K UHD",
+            "display_hdr": true
+          }
+        ],
+        "room_speakers": [
+          {
+            "speaker_brand": "Neumann",
+            "speaker_model": "O 300",
+            "speaker_quantity": 2
+          }
+        ],
+        "room_microphones": [
+          {
+            "microphone_brand": "Neumann",
+            "microphone_model": "U87",
+            "microphone_quantity": 2
+          }
+        ],
+        "room_mixing_consoles": [
+          {
+            "console_brand": "Avid",
+            "console_model": "D-Command"
+          }
+        ]
+      },
+      {
+        "room_number": 1,
+        "room_name": "Studio B",
+        "room_type": "Suite",
+        "room_dimensions": {
+          "width": 16,
+          "height": 12,
+          "depth": 14,
+          "unit": "feet"
+        },
+        "room_function_primary": "Audio Mixing",
+        "room_functions": "",
+        "room_video_setup": [
+          "Dolby Vision",
+          "HDR10",
+          "4K DCI",
+          "Ultra High Definition (UHD)",
+          "2K DCI",
+          "High Definition (HD)",
+          "Standard Definition (SD)"
+        ],
+        "room_video_properties": {
+          "reference_monitor_minimum_requirements": true,
+          "surround_illumination": false,
+          "surround_light_level": true,
+          "surround_extent": true,
+          "viewing_distance": false,
+          "calibration_best_practices": true
+        },
+        "room_audio_setup": [
+          "Dolby Atmos Theatrical",
+          "Dolby Atmos Home Entertainment (9.1.6)",
+          "Dolby Atmos Home Entertainment (7.1.4)",
+          "Dolby Atmos Home Entertainment (5.1.4)",
+          "Surround Sound Theatrical (7.1)",
+          "Surround Sound Theatrical (5.1)",
+          "Surround Sound Nearfield (7.1)",
+          "Surround Sound Nearfield (5.1)",
+          "Stereo (2.0)"
+        ],
+        "room_audio_properties": {
+          "audio_critical_environment_guidance_adherence": true,
+          "meets_minimum_room_dimension_guidelines": true,
+          "center_speaker_placement_meets_guidelines": true,
+          "av_sync_calibrated": true,
+          "uniform_speaker_make_or_model_config": true,
+          "tuned_environment_per_speaker_eq_delay_config": true,
+          "calibration_frequency": "Start of project"
+        },
+        "room_floated": false,
+        "room_isolated": true,
+        "room_prompting_tool": "EdiCue",
+        "rooms_attached": [
+          {
+            "room_attached_type": [
+              "Record Booth",
+              "Live Room",
+              "Foley"
+            ],
+            "room_attached_los": true,
+            "room_attached_capacity": 3,
+            "room_attached_dimensions": {
+              "width": 14,
+              "height": 12,
+              "depth": 11,
+              "unit": "feet"
             }
-          ],
-          "room_workstations": [
-            {
-              "workstation_hardware_brand": "Apple",
-              "workstation_hardware_name": "MacPro 6.1 (Trashcan)",
-              "workstation_hardware_os": "Mojave 10.14.6",
-              "workstation_location": "In Room",
-              "workstation_network_access": "Hard Patch",
-              "workstation_network_connectivity": "Production Network",
-              "workstation_software": [
-                {
-                  "software_type": "Audio",
-                  "software_company": "Merging",
-                  "software_name": "Pyramix",
-                  "software_version": ""
-                },
-                {
-                  "software_type": "VFX",
-                  "software_company": "Adobe",
-                  "software_name": "After Effects",
-                  "software_version": ""
-                },
-                {
-                  "software_type": "Color",
-                  "software_company": "Blackmagic",
-                  "software_name": "DaVinci Resolve",
-                  "software_version": ""
-                }
-              ]
+          }
+        ],
+        "room_workstations": [
+          {
+            "workstation_hardware_brand": "Apple",
+            "workstation_hardware_name": "MacPro 6.1 (Trashcan)",
+            "workstation_hardware_os": "Mojave 10.14.6",
+            "workstation_location": "In Room",
+            "workstation_network_access": "Hard Patch",
+            "workstation_network_connectivity": "Production Network",
+            "workstation_software": [
+              {
+                "software_type": "Audio",
+                "software_company": "Merging",
+                "software_name": "Pyramix",
+                "software_version": ""
+              },
+              {
+                "software_type": "VFX",
+                "software_company": "Adobe",
+                "software_name": "After Effects",
+                "software_version": ""
+              },
+              {
+                "software_type": "Color",
+                "software_company": "Blackmagic",
+                "software_name": "DaVinci Resolve",
+                "software_version": ""
+              }
+            ]
+          }
+        ],
+        "room_displays": [
+          {
+            "display_brand": "LG",
+            "dispaly_model": "C8",
+            "display_type": "OLED",
+            "dipaly_category": "Consumer TV",
+            "display_size": "65",
+            "display_resolution": "4K UHD",
+            "display_hdr": true
+          }
+        ],
+        "room_speakers": [
+          {
+            "speaker_brand": "Neumann",
+            "speaker_model": "O 300",
+            "speaker_quantity": 2
+          }
+        ],
+        "room_microphones": [
+          {
+            "microphone_brand": "Neumann",
+            "microphone_model": "U87",
+            "microphone_quantity": 2
+          }
+        ],
+        "room_mixing_consoles": [
+          {
+            "console_brand": "Avid",
+            "console_model": "D-Command"
+          }
+        ]
+      },
+      {
+        "room_number": 1,
+        "room_name": "Studio C",
+        "room_type": "Suite",
+        "room_dimensions": {
+          "width": 16,
+          "height": 12,
+          "depth": 14,
+          "unit": "feet"
+        },
+        "room_function_primary": "Audio Mixing",
+        "room_functions": "",
+        "room_video_setup": [
+          "Dolby Vision",
+          "HDR10",
+          "4K DCI",
+          "Ultra High Definition (UHD)",
+          "2K DCI",
+          "High Definition (HD)",
+          "Standard Definition (SD)"
+        ],
+        "room_video_properties": {
+          "reference_monitor_minimum_requirements": true,
+          "surround_illumination": true,
+          "surround_light_level": true,
+          "surround_extent": true,
+          "viewing_distance": true,
+          "calibration_best_practices": true
+        },
+        "room_audio_setup": [
+          "Dolby Atmos Theatrical",
+          "Dolby Atmos Home Entertainment (9.1.6)",
+          "Dolby Atmos Home Entertainment (7.1.4)",
+          "Dolby Atmos Home Entertainment (5.1.4)",
+          "Surround Sound Theatrical (7.1)",
+          "Surround Sound Theatrical (5.1)",
+          "Surround Sound Nearfield (7.1)",
+          "Surround Sound Nearfield (5.1)",
+          "Stereo (2.0)"
+        ],
+        "room_audio_properties": {
+          "audio_critical_environment_guidance_adherence": true,
+          "meets_minimum_room_dimension_guidelines": true,
+          "center_speaker_placement_meets_guidelines": true,
+          "av_sync_calibrated": true,
+          "uniform_speaker_make_or_model_config": true,
+          "tuned_environment_per_speaker_eq_delay_config": true,
+          "calibration_frequency": "Start of project"
+        },
+        "room_floated": false,
+        "room_isolated": true,
+        "room_prompting_tool": "EdiCue",
+        "rooms_attached": [
+          {
+            "room_attached_type": [
+              "Record Booth",
+              "Live Room",
+              "Foley"
+            ],
+            "room_attached_los": true,
+            "room_attached_capacity": 3,
+            "room_attached_dimensions": {
+              "width": 14,
+              "height": 12,
+              "depth": 11,
+              "unit": "feet"
             }
-          ],
-          "room_displays": [
-            {
-              "display_brand": "LG",
-              "dispaly_model": "C8",
-              "display_type": "OLED",
-              "dipaly_category": "Consumer TV",
-              "display_size": "65",
-              "display_resolution": "4K UHD",
-              "display_hdr": true
-            }
-          ],
-          "room_speakers": [
-            {
-              "speaker_brand": "Neumann",
-              "speaker_model": "O 300",
-              "speaker_quantity": 2
-            }
-          ],
-          "room_microphones": [
-            {
-              "microphone_brand": "Neumann",
-              "microphone_model": "U87",
-              "microphone_quantity": 2
-            }
-          ],
-          "room_mixing_consoles": [
-            {
-              "console_brand": "Avid",
-              "console_model": "D-Command"
-            }
-          ]
-        }
+          }
+        ],
+        "room_workstations": [
+          {
+            "workstation_hardware_brand": "Apple",
+            "workstation_hardware_name": "MacPro 6.1 (Trashcan)",
+            "workstation_hardware_os": "Mojave 10.14.6",
+            "workstation_location": "In Room",
+            "workstation_network_access": "Hard Patch",
+            "workstation_network_connectivity": "Production Network",
+            "workstation_software": [
+              {
+                "software_type": "Audio",
+                "software_company": "Merging",
+                "software_name": "Pyramix",
+                "software_version": ""
+              },
+              {
+                "software_type": "VFX",
+                "software_company": "Adobe",
+                "software_name": "After Effects",
+                "software_version": ""
+              },
+              {
+                "software_type": "Color",
+                "software_company": "Blackmagic",
+                "software_name": "DaVinci Resolve",
+                "software_version": ""
+              }
+            ]
+          }
+        ],
+        "room_displays": [
+          {
+            "display_brand": "LG",
+            "dispaly_model": "C8",
+            "display_type": "OLED",
+            "dipaly_category": "Consumer TV",
+            "display_size": "65",
+            "display_resolution": "4K UHD",
+            "display_hdr": true
+          }
+        ],
+        "room_speakers": [
+          {
+            "speaker_brand": "Neumann",
+            "speaker_model": "O 300",
+            "speaker_quantity": 2
+          }
+        ],
+        "room_microphones": [
+          {
+            "microphone_brand": "Neumann",
+            "microphone_model": "U87",
+            "microphone_quantity": 2
+          }
+        ],
+        "room_mixing_consoles": [
+          {
+            "console_brand": "Avid",
+            "console_model": "D-Command"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vendor_name": "VendorTwo",
+    "vendor_website": "https://thevendorwebsite.com",
+    "vendor_types_and_services": {
+      "audio_description": [],
+      "dubbing": [
+        "Anime & Animation",
+        "Interactive/Game",
+        "Lip Sync",
+        "Live Action",
+        "Voice Over"
+      ],
+      "creative_post": [
+        "ADR",
+        "DCP",
+        "Centralized Mixing",
+        "Color Grading",
+        "Dailies",
+        "Foley",
+        "IMF",
+        "Mixing",
+        "Offline",
+        "Online",
+        "Restoration",
+        "Sound Design",
+        "Sound Editing",
+        "Sound Mixing"
+      ],
+      "master_qc": [],
+      "VFX": [
+        "2.5D Matte Painting:Matte Painting",
+        "2.5D Matte Painting:Sky Replacement",
+        "2D Comp:2D Crowd Duplication",
+        "2D Comp:2D Face Replacement",
+        "2D Comp:Cell Phone Comps",
+        "2D Comp:Clean Up",
+        "2D Comp:Compositing",
+        "2D Comp:Cosmetic Fixes",
+        "2D Comp:De-aging",
+        "2D Comp:Monitor Comps",
+        "2D Comp:Paint",
+        "2D Comp:Rig/Wire Removal",
+        "2D Comp:Roto",
+        "2D Comp:Tracking",
+        "2D Comp:Window Comps",
+        "3D Environment:3D Environments",
+        "3D Environment:Set Extensions",
+        "3D Object:3D Animated Object",
+        "3D Object:3D Character",
+        "3D Object:3D Static Object",
+        "3D Object:Creature Animation",
+        "3D Object:Digital Doubles",
+        "3D Object:Face/Head Replacements",
+        "FX Sim:3D Crowd Simulation",
+        "FX Sim:3D Partical Simulation",
+        "FX Sim:CG Fire",
+        "FX Sim:CG Hair/Fur",
+        "FX Sim:CG Rain",
+        "FX Sim:CG Snow",
+        "FX Sim:CG Water",
+        "Graphics:End Titles Sequence Design (Credits)",
+        "Graphics:Heads Up Displays",
+        "Graphics:Main Title Sequence Design",
+        "Graphics:Show Graphics",
+        "VFX Services:Character Design",
+        "VFX Services:Concept Design",
+        "VFX Services:Cyber Scanning",
+        "VFX Services:Data Wrangling",
+        "VFX Services:In-House Artist Team",
+        "VFX Services:Lidar Scanning",
+        "VFX Services:Look Dev",
+        "VFX Services:Motion Capture (MoCap)",
+        "VFX Services:On-Set Supervision",
+        "VFX Services:Photogrammetry",
+        "VFX Services:Post Visualization",
+        "VFX Services:Pre-Visualization",
+        "VFX Services:Tech Viz",
+        "VFX Services:Virtual Production",
+        "VFX Services:Virtual Reality",
+        "VFX:VFX"
       ]
     },
-    {
-      "vendor_name": "Lorem ipsum dolor",
-      "vendor_website": "https://thevendorwebsite.com",
-      "vendor_types_and_services": {
-        "audio_description": [
-          
-        ],
-        "dubbing": [
-          "Anime & Animation",
-          "Interactive/Game",
-          "Lip Sync",
-          "Live Action",
-          "Voice Over"
-        ],
-        "creative_post": [
-          "ADR",
-          "DCP",
-          "Centralized Mixing",
-          "Color Grading",
-          "Dailies",
-          "Foley",
-          "IMF",
-          "Mixing",
-          "Offline",
-          "Online",
-          "Restoration",
-          "Sound Design",
-          "Sound Editing",
-          "Sound Mixing"
-        ],
-        "master_qc": [
-          
-        ],
-        "VFX": [
-          "2.5D Matte Painting:Matte Painting",
-          "2.5D Matte Painting:Sky Replacement",
-          "2D Comp:2D Crowd Duplication",
-          "2D Comp:2D Face Replacement",
-          "2D Comp:Cell Phone Comps",
-          "2D Comp:Clean Up",
-          "2D Comp:Compositing",
-          "2D Comp:Cosmetic Fixes",
-          "2D Comp:De-aging",
-          "2D Comp:Monitor Comps",
-          "2D Comp:Paint",
-          "2D Comp:Rig/Wire Removal",
-          "2D Comp:Roto",
-          "2D Comp:Tracking",
-          "2D Comp:Window Comps",
-          "3D Environment:3D Environments",
-          "3D Environment:Set Extensions",
-          "3D Object:3D Animated Object",
-          "3D Object:3D Character",
-          "3D Object:3D Static Object",
-          "3D Object:Creature Animation",
-          "3D Object:Digital Doubles",
-          "3D Object:Face/Head Replacements",
-          "FX Sim:3D Crowd Simulation",
-          "FX Sim:3D Partical Simulation",
-          "FX Sim:CG Fire",
-          "FX Sim:CG Hair/Fur",
-          "FX Sim:CG Rain",
-          "FX Sim:CG Snow",
-          "FX Sim:CG Water",
-          "Graphics:End Titles Sequence Design (Credits)",
-          "Graphics:Heads Up Displays",
-          "Graphics:Main Title Sequence Design",
-          "Graphics:Show Graphics",
-          "VFX Services:Character Design",
-          "VFX Services:Concept Design",
-          "VFX Services:Cyber Scanning",
-          "VFX Services:Data Wrangling",
-          "VFX Services:In-House Artist Team",
-          "VFX Services:Lidar Scanning",
-          "VFX Services:Look Dev",
-          "VFX Services:Motion Capture (MoCap)",
-          "VFX Services:On-Set Supervision",
-          "VFX Services:Photogrammetry",
-          "VFX Services:Post Visualization",
-          "VFX Services:Pre-Visualization",
-          "VFX Services:Tech Viz",
-          "VFX Services:Virtual Production",
-          "VFX Services:Virtual Reality",
-          "VFX:VFX"
+    "vendor_other_services": "",
+    "vendor_experience_by_content_type": [
+      "Features",
+      "Doc Features",
+      "Shortform",
+      "Scripted series",
+      "Non-fiction series"
+    ],
+    "facility_address_1": "1234 Street Name",
+    "facility_address_2": "Suite 987",
+    "facility_city": "Sydney",
+    "facility_state": "StateName",
+    "facility_postal_code": "10004",
+    "facility_country": "Australia",
+    "facility_owner": "",
+    "faclity_email": "test@mail.com",
+    "facility_founded_year": "",
+    "facility_reference_emails": [
+      "facility_reference_email_1",
+      "facility_reference_email_2"
+    ],
+    "facility_delivered_netflix_titles": [
+      {
+        "title": "title_1",
+        "services": [
+          "Dubbing",
+          "Creative Post"
         ]
       },
-      "vendor_other_services": "",
-      "vendor_experience_by_content_type": [
-        "Features",
-        "Doc Features",
-        "Shortform",
-        "Scripted series",
-        "Non-fiction series"
-      ],
-      "facility_address_1": "1234 Street Name",
-      "facility_address_2": "Suite 987",
-      "facility_city": "Amsterdam",
-      "facility_state": "StateName",
-      "facility_postal_code": "908070",
-      "facility_country": "Netherlands",
-      "facility_owner": "",
-      "faclity_email": "test@mail.com",
-      "facility_founded_year": "",
-      "facility_reference_emails": [
-        "facility_reference_email_1",
-        "facility_reference_email_2"
-      ],
-      "facility_delivered_netflix_titles": [
-        {
-          "title": "title_1",
-          "services": [
-            "Dubbing",
-            "Creative Post"
-          ]
+      {
+        "title": "title_2",
+        "services": [
+          "Creative Post",
+          "VFX"
+        ]
+      },
+      {
+        "title": "title_3",
+        "services": [
+          "Dubbing"
+        ]
+      }
+    ],
+    "faciltiy_studio_rooms": [
+      {
+        "room_number": 1,
+        "room_name": "Studio A",
+        "room_type": "Suite",
+        "room_dimensions": {
+          "width": 16,
+          "height": 12,
+          "depth": 14,
+          "unit": "feet"
         },
-        {
-          "title": "title_2",
-          "services": [
-            "Creative Post",
-            "VFX"
-          ]
+        "room_function_primary": "Audio Mixing",
+        "room_functions": "",
+        "room_video_setup": [
+          "Dolby Vision",
+          "HDR10",
+          "4K DCI",
+          "Ultra High Definition (UHD)",
+          "2K DCI",
+          "High Definition (HD)",
+          "Standard Definition (SD)"
+        ],
+        "room_video_properties": {
+          "reference_monitor_minimum_requirements": true,
+          "surround_illumination": false,
+          "surround_light_level": true,
+          "surround_extent": true,
+          "viewing_distance": true,
+          "calibration_best_practices": false
         },
-        {
-          "title": "title_3",
-          "services": [
-            "Dubbing"
-          ]
-        }
-      ],
-      "faciltiy_studio_rooms": [
-        {
-          "room_number": 1,
-          "room_name": "Studio A",
-          "room_type": "Suite",
-          "room_dimensions": {
-            "width": 16,
-            "height": 12,
-            "depth": 14,
-            "unit": "feet"
-          },
-          "room_function_primary": "Audio Mixing",
-          "room_function_secondary": "",
-          "room_video_setup": [
-            "Dolby Vision",
-            "HDR10",
-            "4K DCI",
-            "Ultra High Definition (UHD)",
-            "2K DCI",
-            "High Definition (HD)",
-            "Standard Definition (SD)"
-          ],
-          "room_video_properties": {
-            "reference_monitor_minimum_requirements": true,
-            "surround_illumination": true,
-            "surround_light_level": true,
-            "surround_extent": true,
-            "viewing_distance": true,
-            "calibration_best_practices": true
-          },
-          "room_audio_setup": [
-            "Dolby Atmos Theatrical",
-            "Dolby Atmos Home Entertainment (9.1.6)",
-            "Dolby Atmos Home Entertainment (7.1.4)",
-            "Dolby Atmos Home Entertainment (5.1.4)",
-            "Surround Sound Theatrical (7.1)",
-            "Surround Sound Theatrical (5.1)",
-            "Surround Sound Nearfield (7.1)",
-            "Surround Sound Nearfield (5.1)",
-            "Stereo (2.0)"
-          ],
-          "room_audio_properties": {
-            "audio_critical_environment_guidance_adherence": true,
-            "meets_minimum_room_dimension_guidelines": true,
-            "center_speaker_placement_meets_guidelines": true,
-            "av_sync_calibrated": true,
-            "uniform_speaker_make_or_model_config": true,
-            "tuned_environment_per_speaker_eq_delay_config": true,
-            "calibration_frequency": "Start of project"
-          },
-          "room_floated": false,
-          "room_isolated": true,
-          "room_prompting_tool": "EdiCue",
-          "rooms_attached": [
-            {
-              "room_attached_type": [
-                "Record Booth",
-                "Live Room",
-                "Foley"
-              ],
-              "room_attached_los": true,
-              "room_attached_capacity": 3,
-              "room_attached_dimensions": {
-                "width": 14,
-                "height": 12,
-                "depth": 11,
-                "unit": "feet"
+        "room_audio_setup": [
+          "Dolby Atmos Theatrical",
+          "Dolby Atmos Home Entertainment (9.1.6)",
+          "Dolby Atmos Home Entertainment (7.1.4)",
+          "Dolby Atmos Home Entertainment (5.1.4)",
+          "Surround Sound Theatrical (7.1)",
+          "Surround Sound Theatrical (5.1)",
+          "Surround Sound Nearfield (7.1)",
+          "Surround Sound Nearfield (5.1)",
+          "Stereo (2.0)"
+        ],
+        "room_audio_properties": {
+          "audio_critical_environment_guidance_adherence": true,
+          "meets_minimum_room_dimension_guidelines": true,
+          "center_speaker_placement_meets_guidelines": true,
+          "av_sync_calibrated": true,
+          "uniform_speaker_make_or_model_config": true,
+          "tuned_environment_per_speaker_eq_delay_config": true,
+          "calibration_frequency": "Start of project"
+        },
+        "room_floated": false,
+        "room_isolated": true,
+        "room_prompting_tool": "EdiCue",
+        "rooms_attached": [
+          {
+            "room_attached_type": [
+              "Record Booth",
+              "Live Room",
+              "Foley"
+            ],
+            "room_attached_los": true,
+            "room_attached_capacity": 3,
+            "room_attached_dimensions": {
+              "width": 14,
+              "height": 12,
+              "depth": 11,
+              "unit": "feet"
+            }
+          }
+        ],
+        "room_workstations": [
+          {
+            "workstation_hardware_brand": "Apple",
+            "workstation_hardware_name": "MacPro 6.1 (Trashcan)",
+            "workstation_hardware_os": "Mojave 10.14.6",
+            "workstation_location": "In Room",
+            "workstation_network_access": "Hard Patch",
+            "workstation_network_connectivity": "Production Network",
+            "workstation_software": [
+              {
+                "software_type": "Audio",
+                "software_company": "Merging",
+                "software_name": "Pyramix",
+                "software_version": ""
+              },
+              {
+                "software_type": "VFX",
+                "software_company": "Adobe",
+                "software_name": "After Effects",
+                "software_version": ""
+              },
+              {
+                "software_type": "Color",
+                "software_company": "Blackmagic",
+                "software_name": "DaVinci Resolve",
+                "software_version": ""
               }
-            }
-          ],
-          "room_workstations": [
-            {
-              "workstation_hardware_brand": "Apple",
-              "workstation_hardware_name": "MacPro 6.1 (Trashcan)",
-              "workstation_hardware_os": "Mojave 10.14.6",
-              "workstation_location": "In Room",
-              "workstation_network_access": "Hard Patch",
-              "workstation_network_connectivity": "Production Network",
-              "workstation_software": [
-                {
-                  "software_type": "Audio",
-                  "software_company": "Merging",
-                  "software_name": "Pyramix",
-                  "software_version": ""
-                },
-                {
-                  "software_type": "VFX",
-                  "software_company": "Adobe",
-                  "software_name": "After Effects",
-                  "software_version": ""
-                },
-                {
-                  "software_type": "Color",
-                  "software_company": "Blackmagic",
-                  "software_name": "DaVinci Resolve",
-                  "software_version": ""
-                }
-              ]
-            }
-          ],
-          "room_displays": [
-            {
-              "display_brand": "LG",
-              "dispaly_model": "C8",
-              "display_type": "OLED",
-              "dipaly_category": "Consumer TV",
-              "display_size": "65",
-              "display_resolution": "4K UHD",
-              "display_hdr": true
-            }
-          ],
-          "room_speakers": [
-            {
-              "speaker_brand": "Neumann",
-              "speaker_model": "O 300",
-              "speaker_quantity": 2
-            }
-          ],
-          "room_microphones": [
-            {
-              "microphone_brand": "Neumann",
-              "microphone_model": "U87",
-              "microphone_quantity": 2
-            }
-          ],
-          "room_mixing_consoles": [
-            {
-              "console_brand": "Avid",
-              "console_model": "D-Command"
-            }
-          ]
-        }
+            ]
+          }
+        ],
+        "room_displays": [
+          {
+            "display_brand": "LG",
+            "dispaly_model": "C8",
+            "display_type": "OLED",
+            "dipaly_category": "Consumer TV",
+            "display_size": "65",
+            "display_resolution": "4K UHD",
+            "display_hdr": true
+          }
+        ],
+        "room_speakers": [
+          {
+            "speaker_brand": "Neumann",
+            "speaker_model": "O 300",
+            "speaker_quantity": 2
+          }
+        ],
+        "room_microphones": [
+          {
+            "microphone_brand": "Neumann",
+            "microphone_model": "U87",
+            "microphone_quantity": 2
+          }
+        ],
+        "room_mixing_consoles": [
+          {
+            "console_brand": "Avid",
+            "console_model": "D-Command"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vendor_name": "Lorem ipsum dolor",
+    "vendor_website": "https://thevendorwebsite.com",
+    "vendor_types_and_services": {
+      "audio_description": [],
+      "dubbing": [
+        "Anime & Animation",
+        "Interactive/Game",
+        "Lip Sync",
+        "Live Action",
+        "Voice Over"
+      ],
+      "creative_post": [
+        "ADR",
+        "DCP",
+        "Centralized Mixing",
+        "Color Grading",
+        "Dailies",
+        "Foley",
+        "IMF",
+        "Mixing",
+        "Offline",
+        "Online",
+        "Restoration",
+        "Sound Design",
+        "Sound Editing",
+        "Sound Mixing"
+      ],
+      "master_qc": [],
+      "VFX": [
+        "2.5D Matte Painting:Matte Painting",
+        "2.5D Matte Painting:Sky Replacement",
+        "2D Comp:2D Crowd Duplication",
+        "2D Comp:2D Face Replacement",
+        "2D Comp:Cell Phone Comps",
+        "2D Comp:Clean Up",
+        "2D Comp:Compositing",
+        "2D Comp:Cosmetic Fixes",
+        "2D Comp:De-aging",
+        "2D Comp:Monitor Comps",
+        "2D Comp:Paint",
+        "2D Comp:Rig/Wire Removal",
+        "2D Comp:Roto",
+        "2D Comp:Tracking",
+        "2D Comp:Window Comps",
+        "3D Environment:3D Environments",
+        "3D Environment:Set Extensions",
+        "3D Object:3D Animated Object",
+        "3D Object:3D Character",
+        "3D Object:3D Static Object",
+        "3D Object:Creature Animation",
+        "3D Object:Digital Doubles",
+        "3D Object:Face/Head Replacements",
+        "FX Sim:3D Crowd Simulation",
+        "FX Sim:3D Partical Simulation",
+        "FX Sim:CG Fire",
+        "FX Sim:CG Hair/Fur",
+        "FX Sim:CG Rain",
+        "FX Sim:CG Snow",
+        "FX Sim:CG Water",
+        "Graphics:End Titles Sequence Design (Credits)",
+        "Graphics:Heads Up Displays",
+        "Graphics:Main Title Sequence Design",
+        "Graphics:Show Graphics",
+        "VFX Services:Character Design",
+        "VFX Services:Concept Design",
+        "VFX Services:Cyber Scanning",
+        "VFX Services:Data Wrangling",
+        "VFX Services:In-House Artist Team",
+        "VFX Services:Lidar Scanning",
+        "VFX Services:Look Dev",
+        "VFX Services:Motion Capture (MoCap)",
+        "VFX Services:On-Set Supervision",
+        "VFX Services:Photogrammetry",
+        "VFX Services:Post Visualization",
+        "VFX Services:Pre-Visualization",
+        "VFX Services:Tech Viz",
+        "VFX Services:Virtual Production",
+        "VFX Services:Virtual Reality",
+        "VFX:VFX"
       ]
-    }
-  ]
+    },
+    "vendor_other_services": "",
+    "vendor_experience_by_content_type": [
+      "Features",
+      "Doc Features",
+      "Shortform",
+      "Scripted series",
+      "Non-fiction series"
+    ],
+    "facility_address_1": "1234 Street Name",
+    "facility_address_2": "Suite 987",
+    "facility_city": "Amsterdam",
+    "facility_state": "StateName",
+    "facility_postal_code": "908070",
+    "facility_country": "Netherlands",
+    "facility_owner": "",
+    "faclity_email": "test@mail.com",
+    "facility_founded_year": "",
+    "facility_reference_emails": [
+      "facility_reference_email_1",
+      "facility_reference_email_2"
+    ],
+    "facility_delivered_netflix_titles": [
+      {
+        "title": "title_1",
+        "services": [
+          "Dubbing",
+          "Creative Post"
+        ]
+      },
+      {
+        "title": "title_2",
+        "services": [
+          "Creative Post",
+          "VFX"
+        ]
+      },
+      {
+        "title": "title_3",
+        "services": [
+          "Dubbing"
+        ]
+      }
+    ],
+    "faciltiy_studio_rooms": [
+      {
+        "room_number": 1,
+        "room_name": "Studio A",
+        "room_type": "Suite",
+        "room_dimensions": {
+          "width": 16,
+          "height": 12,
+          "depth": 14,
+          "unit": "feet"
+        },
+        "room_function_primary": "Audio Mixing",
+        "room_functions": [
+          {
+            "audio_mix": true,
+            "audio_record": true,
+            "voice_over": true,
+            "sound_edit": true,
+            "foley": false,
+            "track_lay": false
+          }
+        ],
+        "room_video_setup": [
+          "Dolby Vision",
+          "HDR10",
+          "4K DCI",
+          "Ultra High Definition (UHD)",
+          "2K DCI",
+          "High Definition (HD)",
+          "Standard Definition (SD)"
+        ],
+        "room_video_properties": {
+          "reference_monitor_minimum_requirements": true,
+          "surround_illumination": true,
+          "surround_light_level": true,
+          "surround_extent": true,
+          "viewing_distance": true,
+          "calibration_best_practices": true
+        },
+        "room_audio_setup": [
+          "Dolby Atmos Theatrical",
+          "Dolby Atmos Home Entertainment (9.1.6)",
+          "Dolby Atmos Home Entertainment (7.1.4)",
+          "Dolby Atmos Home Entertainment (5.1.4)",
+          "Surround Sound Theatrical (7.1)",
+          "Surround Sound Theatrical (5.1)",
+          "Surround Sound Nearfield (7.1)",
+          "Surround Sound Nearfield (5.1)",
+          "Stereo (2.0)"
+        ],
+        "room_audio_properties": {
+          "audio_critical_environment_guidance_adherence": true,
+          "meets_minimum_room_dimension_guidelines": true,
+          "center_speaker_placement_meets_guidelines": true,
+          "av_sync_calibrated": true,
+          "uniform_speaker_make_or_model_config": true,
+          "tuned_environment_per_speaker_eq_delay_config": true,
+          "calibration_frequency": "Start of project"
+        },
+        "room_floated": false,
+        "room_isolated": true,
+        "room_prompting_tool": "EdiCue",
+        "rooms_attached": [
+          {
+            "room_attached_type": [
+              "Record Booth",
+              "Live Room",
+              "Foley"
+            ],
+            "room_attached_los": true,
+            "room_attached_capacity": 3,
+            "room_attached_dimensions": {
+              "width": 14,
+              "height": 12,
+              "depth": 11,
+              "unit": "feet"
+            }
+          }
+        ],
+        "room_workstations": [
+          {
+            "workstation_hardware_brand": "Apple",
+            "workstation_hardware_name": "MacPro 6.1 (Trashcan)",
+            "workstation_hardware_os": "Mojave 10.14.6",
+            "workstation_location": "In Room",
+            "workstation_network_access": "Hard Patch",
+            "workstation_network_connectivity": "Production Network",
+            "workstation_software": [
+              {
+                "software_type": "Audio",
+                "software_company": "Merging",
+                "software_name": "Pyramix",
+                "software_version": ""
+              },
+              {
+                "software_type": "VFX",
+                "software_company": "Adobe",
+                "software_name": "After Effects",
+                "software_version": ""
+              },
+              {
+                "software_type": "Color",
+                "software_company": "Blackmagic",
+                "software_name": "DaVinci Resolve",
+                "software_version": ""
+              }
+            ]
+          }
+        ],
+        "room_displays": [
+          {
+            "display_brand": "LG",
+            "dispaly_model": "C8",
+            "display_type": "OLED",
+            "dipaly_category": "Consumer TV",
+            "display_size": "65",
+            "display_resolution": "4K UHD",
+            "display_hdr": true
+          }
+        ],
+        "room_speakers": [
+          {
+            "speaker_brand": "Neumann",
+            "speaker_model": "O 300",
+            "speaker_quantity": 2
+          }
+        ],
+        "room_microphones": [
+          {
+            "microphone_brand": "Neumann",
+            "microphone_model": "U87",
+            "microphone_quantity": 2
+          }
+        ],
+        "room_mixing_consoles": [
+          {
+            "console_brand": "Avid",
+            "console_model": "D-Command"
+          }
+        ]
+      }
+    ]
+  }
+]
