@@ -152,9 +152,9 @@
         "room_video_setup": {
           "dolby" : true,
           "hdr": true,
-          "4K": true,
+          "fourk": true,
           "uhd": true,
-          "2K": false,
+          "twok": false,
           "hd": false,
           "sd": false
   },
@@ -297,9 +297,9 @@
         "room_video_setup": {
           "dolby" : false,
           "hdr": false,
-          "4K": true,
+          "fourk": true,
           "uhd": true,
-          "2K": false,
+          "twok": false,
           "hd": false,
           "sd": false
   },
@@ -428,9 +428,9 @@
         "room_video_setup": {
           "dolby" : false,
           "hdr": true,
-          "4K": true,
+          "fourk": true,
           "uhd": false,
-          "2K": false,
+          "twok": false,
           "hd": false,
           "sd": true
   },
@@ -687,9 +687,9 @@
         "room_video_setup": {
           "dolby" : true,
           "hdr": true,
-          "4K": true,
+          "fourk": true,
           "uhd": false,
-          "2K": false,
+          "twok": false,
           "hd": false,
           "sd": false
   },
@@ -955,9 +955,9 @@
         "room_video_setup": {
           "dolby" : true,
           "hdr": true,
-          "4K": true,
+          "fourk": true,
           "uhd": false,
-          "2K": false,
+          "twok": false,
           "hd": false,
           "sd": false
   },
