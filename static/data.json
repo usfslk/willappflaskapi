@@ -149,15 +149,15 @@
             "foley": false,
             "track_lay": false
         },
-        "room_video_setup": [
-          "Dolby Vision",
-          "HDR10",
-          "4K DCI",
-          "Ultra High Definition (UHD)",
-          "2K DCI",
-          "High Definition (HD)",
-          "Standard Definition (SD)"
-        ],
+        "room_video_setup": {
+          "dolby" : true,
+          "hdr": true,
+          "4K": true,
+          "uhd": true,
+          "2K": false,
+          "hd": false,
+          "sd": false
+  },
         "room_video_properties": {
           "reference_monitor_minimum_requirements": true,
           "surround_illumination": true,
@@ -294,15 +294,15 @@
         },
         "room_function_primary": "Audio Mixing",
         "room_functions": "",
-        "room_video_setup": [
-          "Dolby Vision",
-          "HDR10",
-          "4K DCI",
-          "Ultra High Definition (UHD)",
-          "2K DCI",
-          "High Definition (HD)",
-          "Standard Definition (SD)"
-        ],
+        "room_video_setup": {
+          "dolby" : false,
+          "hdr": false,
+          "4K": true,
+          "uhd": true,
+          "2K": false,
+          "hd": false,
+          "sd": false
+  },
         "room_video_properties": {
           "reference_monitor_minimum_requirements": true,
           "surround_illumination": false,
@@ -425,15 +425,15 @@
         },
         "room_function_primary": "Audio Mixing",
         "room_functions": "",
-        "room_video_setup": [
-          "Dolby Vision",
-          "HDR10",
-          "4K DCI",
-          "Ultra High Definition (UHD)",
-          "2K DCI",
-          "High Definition (HD)",
-          "Standard Definition (SD)"
-        ],
+        "room_video_setup": {
+          "dolby" : false,
+          "hdr": true,
+          "4K": true,
+          "uhd": false,
+          "2K": false,
+          "hd": false,
+          "sd": true
+  },
         "room_video_properties": {
           "reference_monitor_minimum_requirements": true,
           "surround_illumination": true,
@@ -684,15 +684,15 @@
         },
         "room_function_primary": "Audio Mixing",
         "room_functions": "",
-        "room_video_setup": [
-          "Dolby Vision",
-          "HDR10",
-          "4K DCI",
-          "Ultra High Definition (UHD)",
-          "2K DCI",
-          "High Definition (HD)",
-          "Standard Definition (SD)"
-        ],
+        "room_video_setup": {
+          "dolby" : true,
+          "hdr": true,
+          "4K": true,
+          "uhd": false,
+          "2K": false,
+          "hd": false,
+          "sd": false
+  },
         "room_video_properties": {
           "reference_monitor_minimum_requirements": true,
           "surround_illumination": false,
@@ -952,15 +952,15 @@
             "track_lay": false
           }
         ,
-        "room_video_setup": [
-          "Dolby Vision",
-          "HDR10",
-          "4K DCI",
-          "Ultra High Definition (UHD)",
-          "2K DCI",
-          "High Definition (HD)",
-          "Standard Definition (SD)"
-        ],
+        "room_video_setup": {
+          "dolby" : true,
+          "hdr": true,
+          "4K": true,
+          "uhd": false,
+          "2K": false,
+          "hd": false,
+          "sd": false
+  },
         "room_video_properties": {
           "reference_monitor_minimum_requirements": true,
           "surround_illumination": true,
