@@ -233,19 +233,19 @@
                 "software_type": "Audio",
                 "software_company": "Merging",
                 "software_name": "Pyramix",
-                "software_version": ""
+                "software_version": "3.7"
               },
               {
                 "software_type": "VFX",
                 "software_company": "Adobe",
                 "software_name": "After Effects",
-                "software_version": ""
+                "software_version": "1.2"
               },
               {
                 "software_type": "Color",
                 "software_company": "Blackmagic",
                 "software_name": "DaVinci Resolve",
-                "software_version": ""
+                "software_version": "5.0"
               }
             ]
           },
