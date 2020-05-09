@@ -142,22 +142,22 @@
         },
         "room_function_primary": "Audio Mixing",
         "room_functions": {
-            "audio_mix": true,
-            "audio_record": true,
-            "voice_over": true,
-            "sound_edit": true,
-            "foley": false,
-            "track_lay": false
+          "audio_mix": true,
+          "audio_record": true,
+          "voice_over": true,
+          "sound_edit": true,
+          "foley": false,
+          "track_lay": false
         },
         "room_video_setup": {
-          "dolby" : true,
+          "dolby": true,
           "hdr": true,
           "fourk": true,
           "uhd": true,
           "twok": false,
           "hd": false,
           "sd": false
-  },
+        },
         "room_video_properties": {
           "reference_monitor_minimum_requirements": true,
           "surround_illumination": true,
@@ -166,17 +166,17 @@
           "viewing_distance": true,
           "calibration_best_practices": true
         },
-        "room_audio_setup": [
-          "Dolby Atmos Theatrical",
-          "Dolby Atmos Home Entertainment (9.1.6)",
-          "Dolby Atmos Home Entertainment (7.1.4)",
-          "Dolby Atmos Home Entertainment (5.1.4)",
-          "Surround Sound Theatrical (7.1)",
-          "Surround Sound Theatrical (5.1)",
-          "Surround Sound Nearfield (7.1)",
-          "Surround Sound Nearfield (5.1)",
-          "Stereo (2.0)"
-        ],
+        "room_audio_setup": {
+          "dolbyAtmosTh" : true,
+          "dolbyAtmosHE9" : true,
+          "dolbyAtmosHE7" : true,
+          "dolbyAtmosHE5" : true,
+          "surroundTh7" : true,
+          "surroundTh5" : false,
+          "surroundNear7" : false,
+          "surroundNear5" : false,
+          "stereo" : false
+        },
         "room_audio_properties": {
           "audio_critical_environment_guidance_adherence": true,
           "meets_minimum_room_dimension_guidelines": true,
@@ -295,14 +295,14 @@
         "room_function_primary": "Audio Mixing",
         "room_functions": "",
         "room_video_setup": {
-          "dolby" : false,
+          "dolby": false,
           "hdr": false,
           "fourk": true,
           "uhd": true,
           "twok": false,
           "hd": false,
           "sd": false
-  },
+        },
         "room_video_properties": {
           "reference_monitor_minimum_requirements": true,
           "surround_illumination": false,
@@ -311,17 +311,17 @@
           "viewing_distance": false,
           "calibration_best_practices": true
         },
-        "room_audio_setup": [
-          "Dolby Atmos Theatrical",
-          "Dolby Atmos Home Entertainment (9.1.6)",
-          "Dolby Atmos Home Entertainment (7.1.4)",
-          "Dolby Atmos Home Entertainment (5.1.4)",
-          "Surround Sound Theatrical (7.1)",
-          "Surround Sound Theatrical (5.1)",
-          "Surround Sound Nearfield (7.1)",
-          "Surround Sound Nearfield (5.1)",
-          "Stereo (2.0)"
-        ],
+        "room_audio_setup":  {
+          "dolbyAtmosTh" : true,
+          "dolbyAtmosHE9" : true,
+          "dolbyAtmosHE7" : true,
+          "dolbyAtmosHE5" : true,
+          "surroundTh7" : true,
+          "surroundTh5" : false,
+          "surroundNear7" : false,
+          "surroundNear5" : false,
+          "stereo" : false
+        },
         "room_audio_properties": {
           "audio_critical_environment_guidance_adherence": true,
           "meets_minimum_room_dimension_guidelines": true,
@@ -426,14 +426,14 @@
         "room_function_primary": "Audio Mixing",
         "room_functions": "",
         "room_video_setup": {
-          "dolby" : false,
+          "dolby": false,
           "hdr": true,
           "fourk": true,
           "uhd": false,
           "twok": false,
           "hd": false,
           "sd": true
-  },
+        },
         "room_video_properties": {
           "reference_monitor_minimum_requirements": true,
           "surround_illumination": true,
@@ -442,17 +442,17 @@
           "viewing_distance": true,
           "calibration_best_practices": true
         },
-        "room_audio_setup": [
-          "Dolby Atmos Theatrical",
-          "Dolby Atmos Home Entertainment (9.1.6)",
-          "Dolby Atmos Home Entertainment (7.1.4)",
-          "Dolby Atmos Home Entertainment (5.1.4)",
-          "Surround Sound Theatrical (7.1)",
-          "Surround Sound Theatrical (5.1)",
-          "Surround Sound Nearfield (7.1)",
-          "Surround Sound Nearfield (5.1)",
-          "Stereo (2.0)"
-        ],
+        "room_audio_setup":  {
+          "dolbyAtmosTh" : true,
+          "dolbyAtmosHE9" : true,
+          "dolbyAtmosHE7" : true,
+          "dolbyAtmosHE5" : true,
+          "surroundTh7" : true,
+          "surroundTh5" : false,
+          "surroundNear7" : false,
+          "surroundNear5" : false,
+          "stereo" : false
+        },
         "room_audio_properties": {
           "audio_critical_environment_guidance_adherence": true,
           "meets_minimum_room_dimension_guidelines": true,
@@ -685,14 +685,14 @@
         "room_function_primary": "Audio Mixing",
         "room_functions": "",
         "room_video_setup": {
-          "dolby" : true,
+          "dolby": true,
           "hdr": true,
           "fourk": true,
           "uhd": false,
           "twok": false,
           "hd": false,
           "sd": false
-  },
+        },
         "room_video_properties": {
           "reference_monitor_minimum_requirements": true,
           "surround_illumination": false,
@@ -701,17 +701,17 @@
           "viewing_distance": true,
           "calibration_best_practices": false
         },
-        "room_audio_setup": [
-          "Dolby Atmos Theatrical",
-          "Dolby Atmos Home Entertainment (9.1.6)",
-          "Dolby Atmos Home Entertainment (7.1.4)",
-          "Dolby Atmos Home Entertainment (5.1.4)",
-          "Surround Sound Theatrical (7.1)",
-          "Surround Sound Theatrical (5.1)",
-          "Surround Sound Nearfield (7.1)",
-          "Surround Sound Nearfield (5.1)",
-          "Stereo (2.0)"
-        ],
+        "room_audio_setup":  {
+          "dolbyAtmosTh" : true,
+          "dolbyAtmosHE9" : true,
+          "dolbyAtmosHE7" : true,
+          "dolbyAtmosHE5" : true,
+          "surroundTh7" : true,
+          "surroundTh5" : false,
+          "surroundNear7" : false,
+          "surroundNear5" : false,
+          "stereo" : false
+        },
         "room_audio_properties": {
           "audio_critical_environment_guidance_adherence": true,
           "meets_minimum_room_dimension_guidelines": true,
@@ -942,25 +942,23 @@
           "unit": "feet"
         },
         "room_function_primary": "Audio Mixing",
-        "room_functions": 
-          {
-            "audio_mix": true,
-            "audio_record": true,
-            "voice_over": true,
-            "sound_edit": true,
-            "foley": false,
-            "track_lay": false
-          }
-        ,
+        "room_functions": {
+          "audio_mix": true,
+          "audio_record": true,
+          "voice_over": true,
+          "sound_edit": true,
+          "foley": false,
+          "track_lay": false
+        },
         "room_video_setup": {
-          "dolby" : true,
+          "dolby": true,
           "hdr": true,
           "fourk": true,
           "uhd": false,
           "twok": false,
           "hd": false,
           "sd": false
-  },
+        },
         "room_video_properties": {
           "reference_monitor_minimum_requirements": true,
           "surround_illumination": true,
@@ -969,17 +967,17 @@
           "viewing_distance": true,
           "calibration_best_practices": true
         },
-        "room_audio_setup": [
-          "Dolby Atmos Theatrical",
-          "Dolby Atmos Home Entertainment (9.1.6)",
-          "Dolby Atmos Home Entertainment (7.1.4)",
-          "Dolby Atmos Home Entertainment (5.1.4)",
-          "Surround Sound Theatrical (7.1)",
-          "Surround Sound Theatrical (5.1)",
-          "Surround Sound Nearfield (7.1)",
-          "Surround Sound Nearfield (5.1)",
-          "Stereo (2.0)"
-        ],
+        "room_audio_setup":  {
+          "dolbyAtmosTh" : true,
+          "dolbyAtmosHE9" : true,
+          "dolbyAtmosHE7" : true,
+          "dolbyAtmosHE5" : true,
+          "surroundTh7" : true,
+          "surroundTh5" : false,
+          "surroundNear7" : false,
+          "surroundNear5" : false,
+          "stereo" : false
+        },
         "room_audio_properties": {
           "audio_critical_environment_guidance_adherence": true,
           "meets_minimum_room_dimension_guidelines": true,
