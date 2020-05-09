@@ -248,6 +248,28 @@
                 "software_version": ""
               }
             ]
+          },
+          {
+            "workstation_hardware_brand": "Microsoft",
+            "workstation_hardware_name": "Surface 5",
+            "workstation_hardware_os": "Windows 10",
+            "workstation_location": "In Room",
+            "workstation_network_access": "Soft Patch",
+            "workstation_network_connectivity": "Production Network",
+            "workstation_software": [
+              {
+                "software_type": "DAW",
+                "software_company": "Fruity Loops",
+                "software_name": "Studio",
+                "software_version": "11.4"
+              },
+              {
+                "software_type": "VST",
+                "software_company": "Arturia",
+                "software_name": "Analog Lab",
+                "software_version": "2.5"
+              }
+            ]
           }
         ],
         "room_displays": [
