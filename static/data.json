@@ -191,11 +191,7 @@
         "room_prompting_tool": "EdiCue",
         "rooms_attached": [
           {
-            "room_attached_type": [
-              "Record Booth",
-              "Live Room",
-              "Foley"
-            ],
+            "room_attached_type": "Live Room",
             "room_attached_los": true,
             "room_attached_capacity": 3,
             "room_attached_dimensions": {
@@ -206,10 +202,7 @@
             }
           },
           {
-            "room_attached_type": [
-              "Record Booth",
-              "Live Room"
-            ],
+            "room_attached_type": "Record Booth",
             "room_attached_los": false,
             "room_attached_capacity": 3,
             "room_attached_dimensions": {
@@ -358,11 +351,7 @@
         "room_prompting_tool": "EdiCue",
         "rooms_attached": [
           {
-            "room_attached_type": [
-              "Record Booth",
-              "Live Room",
-              "Foley"
-            ],
+            "room_attached_type": "Foley",
             "room_attached_los": true,
             "room_attached_capacity": 3,
             "room_attached_dimensions": {
@@ -489,11 +478,7 @@
         "room_prompting_tool": "EdiCue",
         "rooms_attached": [
           {
-            "room_attached_type": [
-              "Record Booth",
-              "Live Room",
-              "Foley"
-            ],
+            "room_attached_type": "Record Booth",
             "room_attached_los": true,
             "room_attached_capacity": 3,
             "room_attached_dimensions": {
@@ -748,11 +733,7 @@
         "room_prompting_tool": "EdiCue",
         "rooms_attached": [
           {
-            "room_attached_type": [
-              "Record Booth",
-              "Live Room",
-              "Foley"
-            ],
+            "room_attached_type": "Record Booth",
             "room_attached_los": true,
             "room_attached_capacity": 3,
             "room_attached_dimensions": {
@@ -1014,11 +995,7 @@
         "room_prompting_tool": "EdiCue",
         "rooms_attached": [
           {
-            "room_attached_type": [
-              "Record Booth",
-              "Live Room",
-              "Foley"
-            ],
+            "room_attached_type": "Record Booth",
             "room_attached_los": true,
             "room_attached_capacity": 3,
             "room_attached_dimensions": {
