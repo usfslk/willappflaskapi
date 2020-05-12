@@ -25,10 +25,10 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/update', methods=['GET', 'POST'])
+@app.route('/update', methods=['POST'])
 def updateDB():
-    data = request.form.get('data')
-    # db.child("master").update({"vendors": data})
+    data = request.json.get('data')
+    db.child("master").update({"vendors": data})
     return jsonify({"code": 200, "data": data})
 
 
