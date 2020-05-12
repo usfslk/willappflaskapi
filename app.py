@@ -25,25 +25,17 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/update', methods=['POST'])
+@app.route('/api/v2/update', methods=['POST'])
 def updateDB():
     data = request.json.get('data')
     db.child("master").update({"vendors": data})
     return jsonify({"code": 200, "data": data})
 
 
-@app.route('/pull')
+@app.route('/api/v2/pull')
 def pullDB():
     vendors = db.child("master").get()
     return jsonify({"code": 200, "data": vendors.val()})
-
-
-@app.route('/api/v1')
-def main():
-    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static", "data.json")
-    data = json.load(open(json_url))
-    return jsonify(data)
 
 
 if __name__ == '__main__':
