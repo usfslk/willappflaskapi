@@ -38,5 +38,14 @@ def pullDB():
     return jsonify({"code": 200, "data": vendors.val()})
 
 
+@app.route('/api/v2/restore')
+def restoreDB():
+    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    json_url = os.path.join(SITE_ROOT, "static", "data.json")
+    data = json.load(open(json_url))
+    db.child("master").update({"vendors": data})
+    return jsonify({"code": 200, "message": "ok"})
+
+
 if __name__ == '__main__':
     app.run(debug=True)
