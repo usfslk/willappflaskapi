@@ -1,10 +1,10 @@
 # Youssef Selkani
 # 2020
 
-import os
-from flask import Flask, render_template, url_for, json, jsonify
-app = Flask(__name__)
 import pyrebase
+import os
+from flask import Flask, render_template, url_for, json, jsonify, request
+app = Flask(__name__)
 
 
 config = {
@@ -25,10 +25,17 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/firebase')
-def new_event():
-    db.child("events").push('new_event')
-    return render_template('test.html')
+@app.route('/update', methods=['GET', 'POST'])
+def updateDB():
+    data = request.form.get('data')
+    # db.child("master").update({"vendors": data})
+    return jsonify({"code": 200, "data": data})
+
+
+@app.route('/pull')
+def pullDB():
+    vendors = db.child("master").get()
+    return jsonify({"code": 200, "data": vendors.val()})
 
 
 @app.route('/api/v1')
