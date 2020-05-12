@@ -39,7 +39,7 @@ protobuf==3.12.0rc1
 py2app==0.7.3
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-pycryptodome==3.4.3
+pycryptodome==3.6.6
 pyobjc-core==2.5.1
 pyobjc-framework-Accounts==2.5.1
 pyobjc-framework-AddressBook==2.5.1
