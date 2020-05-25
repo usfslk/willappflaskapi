@@ -46,15 +46,21 @@ def restoreDB():
     return jsonify({"code": 200, "message": "ok"})
 
 
-@app.route('/api/v2/upload', methods=['POST'])
-def uploadImg():
+@app.route('/api/v2/upload-vendor', methods=['POST'])
+def uploadVendor():
+    vendor = request.json.get('vendor')
+    url = request.json.get('url')
+    db.child("master/vendors/"+vendor+"/photos").push({"url": url})
+    return jsonify({"code": 200})
+
+@app.route('/api/v2/upload-studio', methods=['POST'])
+def uploadStudio():
     vendor = request.json.get('vendor')
     studio = request.json.get('studio')
     url = request.json.get('url')
     db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
              studio+"/photos").push({"url": url})
     return jsonify({"code": 200})
-
 
 if __name__ == '__main__':
     app.run(debug=True)
