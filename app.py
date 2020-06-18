@@ -24,10 +24,40 @@ def main():
     return render_template('index.html')
 
 
-@app.route('/api/v2/update', methods=['POST'])
-def updateDB():
+@app.route('/api/v2/update-room-name', methods=['POST'])
+def updateRoomName():
     data = request.json.get('data')
-    db.child("master").update({"vendors": data})
+    vendorIndex = request.json.get('vendorIndex')
+    studioIndex = request.json.get('studioIndex')
+    path = "vendors/" + vendorIndex + "/faciltiy_studio_rooms/" +  studioIndex + "/room_name"
+    db.child("master").update({path: data})
+    return jsonify({"code": 200, "data": data})
+
+@app.route('/api/v2/update-room-number', methods=['POST'])
+def updateRoomNumber():
+    data = request.json.get('data')
+    vendorIndex = request.json.get('vendorIndex')
+    studioIndex = request.json.get('studioIndex')
+    path = "vendors/" + vendorIndex + "/faciltiy_studio_rooms/" +  studioIndex + "/room_number"
+    db.child("master").update({path: data})
+    return jsonify({"code": 200, "data": data})
+
+@app.route('/api/v2/update-room-type', methods=['POST'])
+def updateRoomType():
+    data = request.json.get('data')
+    vendorIndex = request.json.get('vendorIndex')
+    studioIndex = request.json.get('studioIndex')
+    path = "vendors/" + vendorIndex + "/faciltiy_studio_rooms/" +  studioIndex + "/room_type"
+    db.child("master").update({path: data})
+    return jsonify({"code": 200, "data": data})
+
+@app.route('/api/v2/update-room-dimensions', methods=['POST'])
+def updateRoomDimensions():
+    data = request.json.get('data')
+    vendorIndex = request.json.get('vendorIndex')
+    studioIndex = request.json.get('studioIndex')
+    path = "vendors/" + vendorIndex + "/faciltiy_studio_rooms/" +  studioIndex + "/room_dimensions"
+    db.child("master").update({path: data})
     return jsonify({"code": 200, "data": data})
 
 
@@ -53,6 +83,7 @@ def uploadVendor():
     db.child("master/vendors/"+vendor+"/photos").push({"url": url})
     return jsonify({"code": 200})
 
+
 @app.route('/api/v2/upload-studio', methods=['POST'])
 def uploadStudio():
     vendor = request.json.get('vendor')
@@ -61,6 +92,7 @@ def uploadStudio():
     db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
              studio+"/photos").push({"url": url})
     return jsonify({"code": 200})
+
 
 if __name__ == '__main__':
     app.run(debug=True)
