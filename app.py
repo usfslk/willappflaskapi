@@ -60,6 +60,35 @@ def updateRoomDimensions():
     db.child("master").update({path: data})
     return jsonify({"code": 200, "data": data})
 
+@app.route('/api/v2/update-float', methods=['POST'])
+def updateFloat():
+    vendorIndex = request.json.get('vendorIndex')
+    studioIndex = request.json.get('studioIndex')
+    path = "vendors/" + vendorIndex + "/faciltiy_studio_rooms/" +  studioIndex + "/room_floated"
+    db.child("master").update({path: True})
+    path2 = "vendors/" + vendorIndex + "/faciltiy_studio_rooms/" +  studioIndex + "/room_isolated"
+    db.child("master").update({path2: False})
+    return jsonify({"code": 200})
+
+@app.route('/api/v2/update-iso', methods=['POST'])
+def updateIso():
+    vendorIndex = request.json.get('vendorIndex')
+    studioIndex = request.json.get('studioIndex')
+    path = "vendors/" + vendorIndex + "/faciltiy_studio_rooms/" +  studioIndex + "/room_floated"
+    db.child("master").update({path: False})
+    path2 = "vendors/" + vendorIndex + "/faciltiy_studio_rooms/" +  studioIndex + "/room_isolated"
+    db.child("master").update({path2: True})
+    return jsonify({"code": 200})
+
+@app.route('/api/v2/update-functions', methods=['POST'])
+def updateFunctions():
+    vendorIndex = request.json.get('vendorIndex')
+    studioIndex = request.json.get('studioIndex')
+    data = request.json.get('data')
+    path = "vendors/" + vendorIndex + "/faciltiy_studio_rooms/" +  studioIndex + "/room_functions"
+    db.child("master").update({path: data})
+    return jsonify({"code": 200})
+
 
 @app.route('/api/v2/pull')
 def pullDB():
