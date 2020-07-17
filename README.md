@@ -3,4 +3,4 @@
 
 Root https://flaskwillapp.herokuapp.com
 
-Endpoint /api/v1
+Endpoint /api/v2/
