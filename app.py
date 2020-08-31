@@ -95,7 +95,6 @@ def pullDB():
     vendors = db.child("master").get()
     return jsonify({"code": 200, "data": vendors.val()})
 
-
 @app.route('/api/v2/restore')
 def restoreDB():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
