@@ -124,8 +124,11 @@ def uploadStudio():
 @app.route('/api/v2/new-display', methods=['POST'])
 def newDisplay():
     vendor = request.json.get('vendor')
+    print(vendor)
     studio = request.json.get('studio')
+    print(studio)
     display = request.json.get('display')
+    print(display)
     db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
              studio+"/room_displays").push({"test": display})
     return jsonify({"code": 200})
