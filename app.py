@@ -130,7 +130,7 @@ def newDisplay():
     display = request.json.get('display')
     print(display)
     db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
-             studio+"/room_displays").push({"test": display})
+             studio+"/room_displays").push(display)
     return jsonify({"code": 200})
 
 
