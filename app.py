@@ -124,13 +124,19 @@ def uploadStudio():
 @app.route('/api/v2/new-display', methods=['POST'])
 def newDisplay():
     vendor = request.json.get('vendor')
-    print(vendor)
     studio = request.json.get('studio')
-    print(studio)
     display = request.json.get('display')
-    print(display)
     db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
              studio+"/room_displays").push(display)
+    return jsonify({"code": 200})
+
+    @app.route('/api/v2/new-console', methods=['POST'])
+def newDisplay():
+    vendor = request.json.get('vendor')
+    studio = request.json.get('studio')
+    console = request.json.get('console')
+    db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
+             studio+"/room_mixing_consoles").push(console)
     return jsonify({"code": 200})
 
 
