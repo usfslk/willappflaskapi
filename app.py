@@ -156,6 +156,15 @@ def newConsole():
              studio+"/room_mixing_consoles").push(console)
     return jsonify({"code": 200})
 
+@app.route('/api/v2/new-speaker', methods=['POST'])
+def newConsole():
+    vendor = request.json.get('vendor')
+    studio = request.json.get('studio')
+    speaker = request.json.get('speaker')
+    db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
+             studio+"/room_speakers").push(speaker)
+    return jsonify({"code": 200})
+
 
 if __name__ == '__main__':
     app.run(debug=True)
