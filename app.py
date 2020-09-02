@@ -157,7 +157,7 @@ def newConsole():
     return jsonify({"code": 200})
 
 @app.route('/api/v2/new-speaker', methods=['POST'])
-def newConsole():
+def newSpeaker():
     vendor = request.json.get('vendor')
     studio = request.json.get('studio')
     speaker = request.json.get('speaker')
