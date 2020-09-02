@@ -131,7 +131,7 @@ def newDisplay():
     return jsonify({"code": 200})
 
     @app.route('/api/v2/new-console', methods=['POST'])
-def newDisplay():
+def newConsole():
     vendor = request.json.get('vendor')
     studio = request.json.get('studio')
     console = request.json.get('console')
