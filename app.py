@@ -178,12 +178,10 @@ def newMicro():
 def deleteDisplay():
     vendor = request.json.get('vendor')
     studio = request.json.get('studio')
-    display = request.json.get('display')
-    data = db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
-             studio+"/room_displays")
-    print (data)
+    key = request.json.get('key')
+    db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
+             studio+"/room_displays").child(key).remove()
     return jsonify({"code": 200})
-
 
 if __name__ == '__main__':
     app.run(debug=True)
