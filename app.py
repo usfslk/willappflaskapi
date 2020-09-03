@@ -165,6 +165,15 @@ def newSpeaker():
              studio+"/room_speakers").push(speaker)
     return jsonify({"code": 200})
 
+@app.route('/api/v2/new-micro', methods=['POST'])
+def newMicro():
+    vendor = request.json.get('vendor')
+    studio = request.json.get('studio')
+    micro = request.json.get('micro')
+    db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
+             studio+"/room_microphones").push(micro)
+    return jsonify({"code": 200})
+
 
 if __name__ == '__main__':
     app.run(debug=True)
