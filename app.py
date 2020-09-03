@@ -138,6 +138,8 @@ def uploadStudio():
     return jsonify({"code": 200})
 
 
+# --------------
+
 @app.route('/api/v2/new-display', methods=['POST'])
 def newDisplay():
     vendor = request.json.get('vendor')
@@ -174,6 +176,8 @@ def newMicro():
              studio+"/room_microphones").push(micro)
     return jsonify({"code": 200})
 
+# ----------------
+
 @app.route('/api/v2/delete-display', methods=['POST'])
 def deleteDisplay():
     vendor = request.json.get('vendor')
@@ -181,6 +185,33 @@ def deleteDisplay():
     key = request.json.get('key')
     db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
              studio+"/room_displays").child(key).remove()
+    return jsonify({"code": 200})
+
+@app.route('/api/v2/delete-console', methods=['POST'])
+def deleteConsole():
+    vendor = request.json.get('vendor')
+    studio = request.json.get('studio')
+    key = request.json.get('key')
+    db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
+             studio+"/room_mixing_consoles").child(key).remove()
+    return jsonify({"code": 200})
+
+@app.route('/api/v2/delete-speaker', methods=['POST'])
+def deleteSpeaker():
+    vendor = request.json.get('vendor')
+    studio = request.json.get('studio')
+    key = request.json.get('key')
+    db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
+             studio+"/room_speakers").child(key).remove()
+    return jsonify({"code": 200})
+
+@app.route('/api/v2/delete-micro', methods=['POST'])
+def deleteMicro():
+    vendor = request.json.get('vendor')
+    studio = request.json.get('studio')
+    key = request.json.get('key')
+    db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
+             studio+"/room_microphones").child(key).remove()
     return jsonify({"code": 200})
 
 if __name__ == '__main__':
