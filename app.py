@@ -23,6 +23,20 @@ storage = firebase.storage()
 def main():
     return render_template('index.html')
 
+@app.route('/api/v2/pull')
+def pullDB():
+    vendors = db.child("master").get()
+    return jsonify({"code": 200, "data": vendors.val()})
+
+
+@app.route('/api/v2/restore')
+def restoreDB():
+    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    json_url = os.path.join(SITE_ROOT, "static", "data.json")
+    data = json.load(open(json_url))
+    db.child("master").update({"vendors": data})
+    return jsonify({"code": 200, "message": "ok"})
+
 
 @app.route('/api/v2/update-room-name', methods=['POST'])
 def updateRoomName():
@@ -104,22 +118,6 @@ def updateFunctions():
     db.child("master").update({path: data})
     return jsonify({"code": 200})
 
-
-@app.route('/api/v2/pull')
-def pullDB():
-    vendors = db.child("master").get()
-    return jsonify({"code": 200, "data": vendors.val()})
-
-
-@app.route('/api/v2/restore')
-def restoreDB():
-    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static", "data.json")
-    data = json.load(open(json_url))
-    db.child("master").update({"vendors": data})
-    return jsonify({"code": 200, "message": "ok"})
-
-
 @app.route('/api/v2/upload-vendor', methods=['POST'])
 def uploadVendor():
     vendor = request.json.get('vendor')
@@ -136,7 +134,6 @@ def uploadStudio():
     db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
              studio+"/photos").push({"url": url})
     return jsonify({"code": 200})
-
 
 # --------------
 
@@ -212,6 +209,17 @@ def deleteMicro():
     key = request.json.get('key')
     db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
              studio+"/room_microphones").child(key).remove()
+    return jsonify({"code": 200})
+
+# ----------------
+
+@app.route('/api/v2/new-workstation', methods=['POST'])
+def newWT():
+    vendor = request.json.get('vendor')
+    studio = request.json.get('studio')
+    wt = request.json.get('wt')
+    db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
+             studio+"/room_workstations").push(wt)
     return jsonify({"code": 200})
 
 if __name__ == '__main__':
