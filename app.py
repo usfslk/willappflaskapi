@@ -222,5 +222,15 @@ def newWT():
              studio+"/room_workstations").push(wt)
     return jsonify({"code": 200})
 
+@app.route('/api/v2/workstation-os', methods=['POST'])
+def newOS():
+    vendor = request.json.get('vendor')
+    studio = request.json.get('studio')
+    os = request.json.get('os')
+    key = request.json.get('key')
+    db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
+             studio+"/room_workstations/"+key+).update({workstation_hardware_os: os})
+    return jsonify({"code": 200})
+
 if __name__ == '__main__':
     app.run(debug=True)
