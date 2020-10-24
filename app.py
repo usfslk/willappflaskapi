@@ -241,5 +241,15 @@ def deleteWT():
              studio+"/room_workstations").child(key).remove()
     return jsonify({"code": 200})
 
+@app.route('/api/v2/new-software', methods=['POST'])
+def newSW():
+    vendor = request.json.get('vendor')
+    studio = request.json.get('studio')
+    software = request.json.get('software')
+    key = request.json.get('key')
+    db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
+             studio+"/room_workstations/"+key+"/workstation_software").push(software)
+    return jsonify({"code": 200})
+
 if __name__ == '__main__':
     app.run(debug=True)
