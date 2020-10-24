@@ -229,7 +229,7 @@ def newOS():
     os = request.json.get('os')
     key = request.json.get('key')
     db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
-             studio+"/room_workstations/"+key).update({workstation_hardware_os: os})
+             studio+"/room_workstations/"+key).update({"workstation_hardware_os": os})
     return jsonify({"code": 200})
 
 if __name__ == '__main__':
