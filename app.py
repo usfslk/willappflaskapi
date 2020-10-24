@@ -232,5 +232,14 @@ def newOS():
              studio+"/room_workstations/"+key).update({"workstation_hardware_os": os})
     return jsonify({"code": 200})
 
+@app.route('/api/v2/delete-workstation', methods=['POST'])
+def deleteWT():
+    vendor = request.json.get('vendor')
+    studio = request.json.get('studio')
+    key = request.json.get('key')
+    db.child("master/vendors/"+vendor+"/faciltiy_studio_rooms/" +
+             studio+"/room_workstations").child(key).remove()
+    return jsonify({"code": 200})
+
 if __name__ == '__main__':
     app.run(debug=True)
