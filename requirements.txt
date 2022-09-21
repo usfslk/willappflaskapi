@@ -14,7 +14,7 @@ idna==2.9
 ipaddress==1.0.23
 itsdangerous==1.1.0
 Jinja2==2.11.2
-jwcrypto==0.7
+jwcrypto==1.4
 MarkupSafe==1.1.1
 peewee==3.13.3
 pycparser==2.20
